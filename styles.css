@@ -1,0 +1,86 @@
+:root
+{
+    font-size: 16px;
+
+    --text-color: rbg(255, 255, 255);
+    --bg-color: rgb(29,29,29);
+    --bg-gradient: linear-gradient(90deg, rgba(29,29,29,1) 0%, rgba(8,8,9,1) 100%);
+}
+
+.main-section
+{
+    height: 100vh;
+    color: white;
+}
+
+.sidebar
+{
+    width: 40vw;
+    background-image: url(https://images.unsplash.com/photo-1698847102523-cb8643d755a4?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.su-section
+{
+    width: 60vw;
+    background: var(--bg-color);
+    background: var(--bg-gradient);
+    box-shadow: -21px 0px 26px 16px rgba(0,0,0,0.1);
+}
+
+input,
+textarea,
+select,
+button {
+  width: 500px;
+  height: 60px;
+}
+
+label
+{
+    font-size: 1.2rem;
+}
+
+input
+{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+button
+{
+    font-size: 2rem;
+}
+
+h1
+{
+    font-size: 4rem;
+}
+
+h2
+{
+    font-size: 3rem;
+}
+
+h3
+{
+    font-size: 2rem;
+}
+
+p
+{
+    font-size: 1.5rem;
+}
+
+:focus
+{
+    box-shadow: -13px 0px 10px 13px rgba(0,0,0,0.1);
+}
+
+:invalid
+{
+    border-color: crimson;
+}

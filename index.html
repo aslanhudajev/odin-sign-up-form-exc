@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freq. - We make noise.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="signup.js" defer></script>
+</head>
+<body>
+    <div class="main-section d-flex flex-row justify-content-evenly position-relative">
+        <div class="sidebar d-flex flex-column justify-content-center align-items-center p-4">
+            <div class="text-container d-flex flex-column align-items-start">
+                <h1 class="title">ACME INC.</h1>
+                <p class="subtitle">Dreams brought to life</p> 
+            </div>
+        </div>
+        <div class="su-section d-flex flex-column justify-content-center align-items-center">
+            <div class="su-container d-flex flex-column align-items-start">
+                <h1 class="title mb-4">Get started!</h1>
+                <form action="submit" method="post" class="suform">
+                    <div class="su-form d-flex flex-row justify-content-evenly mb-4">
+                        <div class="d-flex flex-column me-4">
+                            <label for="first" class="lab">First name</label>
+                            <input type="text" name="first" id="first" class="first mb-3" required placeholder="Hans">
+            
+                            <label for="mail" class="lab">Email</label>
+                            <input type="email" name="mail" id="mail" class="mail mb-3" required placeholder="hans.zimmer@gmail.com"> 
+        
+                            <label for="pass" class="lab">Password</label>
+                            <input type="password" name="pass" id="pass" class="pass mb-3" required>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <label for="last" class="lab">Last name</label>
+                            <input type="text" name="last" id="last" class="last mb-3" required placeholder="Zimmer">
+
+                            <label for="phone" class="lab">Phone number</label>
+                            <input type="tel" name="phone" id="phone" class="phone mb-3" inputmode="numeric" pattern="^[0-9]*$" required placeholder="+187555656">
+                            
+                            <label for="pass-confirm" class="lab">Confirm password</label>
+                            <input type="password" name="pass-confirm" id="pass-confirm" class="confirm-pass mb-3" required>
+                        </div>                        
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2">Register</button>
+                </form>
+                <div class="message">Already have an account? Log in</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
